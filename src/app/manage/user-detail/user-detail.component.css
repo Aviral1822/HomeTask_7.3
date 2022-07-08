@@ -1,0 +1,15 @@
+.actbool{
+    color: green;
+}
+
+.delbool{
+    color: red;
+}
+
+.card{
+    width: 30%;
+    float:right;
+    position: absolute;
+    top: 11rem;
+    right: 6rem;
+}

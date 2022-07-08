@@ -1,0 +1,22 @@
+
+.jumbotron {
+    background-color: rgb(209, 219, 219);
+    padding: 15px 8px;
+    padding-bottom: 3rem;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+.jumbotron .head1 {
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.jumbotron .head2 {
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+

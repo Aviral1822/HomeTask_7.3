@@ -1,0 +1,14 @@
+
+
+li{
+    list-style: none;
+}
+
+.card{
+    border: 1.6px solid lawngreen;
+    width: 100%;
+}
+
+.btn{
+    float: right;
+}

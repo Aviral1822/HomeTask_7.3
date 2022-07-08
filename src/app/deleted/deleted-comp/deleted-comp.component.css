@@ -1,0 +1,12 @@
+li{
+    list-style: none;
+}
+
+.card{
+    border: 1.6px solid rgb(238, 117, 117);
+    width: 100%;
+}
+
+.btn{
+    float: right;
+}

@@ -1,0 +1,47 @@
+
+<ng-container>
+
+
+    <div class="card">
+        
+        <div class="card-body">
+          <h5 class="card-title">
+            {{userDetail.id}}
+          </h5>
+          <ng-container  *ngIf="userDetail.isDeleted===true">
+            <p class="delbool">Deleted</p>
+          </ng-container>
+          
+          <ng-container *ngIf="userDetail.isDeleted===false">
+            <p class="actbool">Active</p>
+          </ng-container>
+          <table class="table table-borderless">
+           
+            <tbody>
+              <tr>
+                <th scope="row">LogIn</th>
+                <td>{{userDetail.login}}</td>
+               
+              </tr>
+              <tr>
+                <th scope="row">FirstName</th>
+                <td>{{userDetail.firstName}}</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">LastName</th>
+                <td>{{userDetail.lastName}}</td>
+               
+              </tr>
+              <tr>
+                <th scope="row">Age</th>
+                <td>{{userDetail.age}}</td>
+               
+              </tr>
+            </tbody>
+          </table>
+         
+        
+        </div>
+      </div>
+</ng-container>
